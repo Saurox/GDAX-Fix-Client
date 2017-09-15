@@ -1,0 +1,35 @@
+{
+  "name": "gdax-fix-client",
+  "version": "1.0.0",
+  "description": "gdax client for ultra low latency strategy with fix protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saurox/GDAX-Fix-Client.git"
+  },
+  "keywords": [
+    "gdax",
+    "fix",
+    "client"
+  ],
+  "dependencies": {
+    "crypto":"0.0.3",
+    "fixjs":"0.5.0",
+    "net":"1.0.2",
+    "tls":"0.0.1",
+    "program":"1.0.0",
+    "url":"0.11.0",
+    "uuid":"3.1.0",
+    "commander":"2.11.0",
+    "gdax":"0.4.2"
+  },
+  "author": "sirio vitrugno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Saurox/GDAX-Fix-Client/issues"
+  },
+  "homepage": "https://github.com/Saurox/GDAX-Fix-Client#readme"
+}
